@@ -1,15 +1,30 @@
 import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
-// import { SiNestjs } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
 import ecommerceProjectImg from "@/public/ecommerce-app.png";
 import mernChatProjectImg from "@/public/mern-chat.png";
 import moviesPlatformProjectImg from "@/public/movies-platform.png";
 import gameOverProjectImg from "@/public/game-over.png";
+import ideanestProjectImg from "@/public/ideanest.png";
 import routeCompanyImg from "@/public/routeCompany.jpg";
 import leanNodeCompanyImg from "@/public/leanNodeCompany.jpg";
 import dynoCompanyImg from "@/public/dynoCompany.jpg";
+import reactIcon from "@/public/react.svg";
+import bootstrapIcon from "@/public/bootstrap.svg";
+import chakrauiIcon from "@/public/chakra-ui.svg";
+import cloudinaryIcon from "@/public/cloudinary.svg";
+import expressIcon from "@/public/expressjs.svg";
+import mongodbIcon from "@/public/mongodb.svg";
+// import nextjsIcon from "@/public/nextjs.svg";
+import nodejsIcon from "@/public/nodejs.svg";
+import reduxIcon from "@/public/redux.svg";
+import scssIcon from "@/public/scss.svg";
+import socketioIcon from "@/public/socket-io.svg";
+import stripeIcon from "@/public/stripe.svg";
+import typescriptIcon from "@/public/typescript.svg";
+import nestjsIcon from "@/public/nestjs.svg";
+import redisIcon from "@/public/redis.svg";
+import dockerIcon from "@/public/docker.svg";
+import rapidapiIcon from "@/public/rapid-api.png";
 
 export const links = [
   {
@@ -144,65 +159,78 @@ export const projectsData = [
   {
     title: "Full Stack E-Commerce App",
     description: `Stripe Payment Gateway - Send Email - Generate Invoice - User Cart - Wish List - Protected Routing -
-			Authentication (Login/ Register/ ForgetPasswrod/ ResetPassword via OTP) - Authorization - Validation.`,
-    tags: [
-      "Stripe",
-      "ReactJS",
-      "ContextAPI",
-      "Bootstrap",
-      "NodeJS",
-      "Express",
-      "MongoDB",
-      "Cloudinary",
+			Authentication - Authorization - Validation.`,
+    stackIcons: [
+      reactIcon,
+      bootstrapIcon,
+      nodejsIcon,
+      mongodbIcon,
+      cloudinaryIcon,
+      expressIcon,
+      stripeIcon,
     ],
     imageUrl: ecommerceProjectImg,
     videoUrl:
       "https://res.cloudinary.com/dayeympjm/video/upload/v1696969384/portfolio/ecommerce.mp4",
     liveDemo: "https://eslam-mohamed78.github.io/E-Commerce-Web-App/",
     frontendRepo: "https://github.com/Eslam-Mohamed78/E-Commerce-Web-App",
-    backendRepo: "https://github.com/Eslam-Mohamed78/E-Commerce-BackEnd",
+    repo: "https://github.com/Eslam-Mohamed78/E-Commerce-BackEnd",
   },
   {
     title: "Full Stack Chat App",
     description: `Main-Features: Real-time chatting, One-to-one chat, Group chat (add & remove members only by admin - update group
-        name - leave group), Notification, Authentication (Login / Register / Signout), Authorization, Validation.`,
-    tags: [
-      "Socket.io",
-      "ReactJS",
-      "Chakra-UI",
-      "ContextAPI",
-      "Cloudinary",
-      "NodeJS",
-      "Express",
-      "MongoDB",
+        name - leave group), Notification, Authentication.`,
+    stackIcons: [
+      reactIcon,
+      chakrauiIcon,
+      nodejsIcon,
+      mongodbIcon,
+      cloudinaryIcon,
+      expressIcon,
+      socketioIcon,
     ],
     imageUrl: mernChatProjectImg,
     videoUrl:
       "https://res.cloudinary.com/dayeympjm/video/upload/v1696970721/portfolio/MERN-Chat-App_ajjscx.mp4",
     liveDemo: "https://fe-mern-chat.onrender.com/",
     frontendRepo: "https://github.com/Eslam-Mohamed78/MERN-Chat-App-Frontend",
-    backendRepo: "https://github.com/Eslam-Mohamed78/MERN-Chat-App-Backend",
+    repo: "https://github.com/Eslam-Mohamed78/MERN-Chat-App-Backend",
   },
   {
     title: "Online-Gaming Store",
     description: `Main Features: Browse gmaes from different categories, platforms, sorts and demo video for each game with full details,
     Reduxt for state management, Authentication, Vlidation, ProtectedRouting.`,
-    tags: ["ReactJS", "Redux", "Bootstrap", "SCSS"],
+    stackIcons: [reactIcon, bootstrapIcon, reduxIcon, scssIcon],
     imageUrl: gameOverProjectImg,
     videoUrl:
       "https://res.cloudinary.com/dayeympjm/video/upload/v1696971446/portfolio/gameover_rfglpp.mp4",
     liveDemo: "https://eslam-mohamed78.github.io/Game-Over/",
-    frontendRepo: "https://github.com/Eslam-Mohamed78/Game-Over",
+    repo: "https://github.com/Eslam-Mohamed78/Game-Over",
   },
   {
     title: "Noxe-Movies Platform",
     description: `Main Features: TrendingMovies, TVSeries, Actors, TrendingSlider, TVshow, Authentication, Validation.`,
-    tags: ["ReactJS", "Bootstrap", "LocalStorage", "ContextAPI"],
+    stackIcons: [reactIcon, bootstrapIcon, rapidapiIcon],
     imageUrl: moviesPlatformProjectImg,
     videoUrl:
       "https://res.cloudinary.com/dayeympjm/video/upload/v1696970706/portfolio/Noxe-Movies-Platform_o67aal.mp4",
     liveDemo: "https://eslam-mohamed78.github.io/Noxe-Movies-Platform/",
-    frontendRepo: "https://github.com/Eslam-Mohamed78/Noxe-Movies-Platform",
+    repo: "https://github.com/Eslam-Mohamed78/Noxe-Movies-Platform",
+  },
+  {
+    title: "Ideanest_Backend",
+    description: `Main Features: RefreshToken, Localization, Redis-Caching`,
+    stackIcons: [
+      nestjsIcon,
+      typescriptIcon,
+      redisIcon,
+      dockerIcon,
+      mongodbIcon,
+    ],
+    imageUrl: ideanestProjectImg,
+    videoUrl: "",
+    liveDemo: "https://github.com/Eslam-Mohamed78/Ideanest_Backend",
+    repo: "https://github.com/Eslam-Mohamed78/Ideanest_Backend",
   },
 ] as const;
 
