@@ -25,6 +25,8 @@ import nestjsIcon from "@/public/nestjs.svg";
 import redisIcon from "@/public/redis.svg";
 import dockerIcon from "@/public/docker.svg";
 import rapidapiIcon from "@/public/rapid-api.png";
+import pharaohCompanyImg from "@/public/pharaohsoft.jpeg";
+import hectarCompanyImg from "@/public/hectar.png";
 
 export const links = [
   {
@@ -83,26 +85,65 @@ export const educationData = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack (MERN) Internship",
-    location: "Route, Egypt",
-    description: `At Route, I contributed to developing responsive interfaces using HTML, CSS, and JavaScript
-        while optimizing APIs with Node.js and MongoDB for seamless data flow. I collaborated with the team to debug,
-        enhance features, and ensure scalability, improving user experience and system performance.`,
-    // icon: React.createElement(CgWorkAlt),
-    icon: routeCompanyImg,
-    url: "https://www.linkedin.com/company/routeacademy/",
-    date: "Dec 2022 - Sep 2023",
+    title: "Part-time Backend Developer (Remote)",
+    location: "Pharaoh Soft, Egypt",
+    description: `• Developed and maintained a real-time Events Management System using Nest.js,
+MongoDB, Redis, and Socket.IO.
+        • Ensured scalability and seamless performance for event-driven applications.
+        • Implemented CI/CD pipelines to automate deployment and enhance development
+workflow.
+        • Optimized server performance for high availability and efficiency.
+        • Collaborated with cross-functional teams to build business-driven backend solutions.`,
+    icon: pharaohCompanyImg,
+    url: "https://www.linkedin.com/company/pharaoh-soft-ltd/posts/?feedView=all",
+    date: "Jan 2025 - present",
     stack: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "React",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
+      "AWS",
+      "Nest.js",
       "TypeScript",
-      "Tailwind",
+      "MongoDB",
+      "Mongoose",
+      "Firebase",
+      "Docker",
+    ],
+  },
+  {
+    title: "Full-time Backend Developer (Remote)",
+    location: "HectarApp, Saudi-Riyadh",
+    description: `• Developed a new accounting microservice using NestJS and TypeScript.
+        • Worked on a real estate management platform with six microservices.
+        • Ensured seamless data flow, scalability, and performance optimization.
+        • Implemented best practices for secure and efficient financial transactions.`,
+    icon: hectarCompanyImg,
+    url: "https://www.linkedin.com/company/hectarapp/about/",
+    date: "Dec 2024 - present",
+    stack: ["Microservices", "Nest.js", "TypeScript", "MongoDB", "Mongoose"],
+  },
+
+  {
+    title: "Full-time Backend Developer (Remote)",
+    location: "DYNO Tech, Egypt",
+    description: `• Developed a real-time location tracking and live status detection server using Nest.js, Socket.IO, MongoDB, and Firebase Cloud Messaging for mobile notifications.
+        • Managed the VPS infrastructure and CI/CD pipelines for the applications, ensuring seamless deployment and continuous integration.
+        • Leveraged PM2 to optimize CPU core utilization and monitor server performance.
+        • Collaborated closely with the mobile (Flutter), frontend (React.js), and testing teams to troubleshoot and resolve complex issues.
+        • Designed and implemented a comprehensive dashboard for multiple administrative roles.`,
+    // icon: React.createElement(SiNestjs),
+    icon: dynoCompanyImg,
+    url: "https://www.linkedin.com/company/dynootech/posts/?feedView=all",
+    date: "Jul 2024 - present",
+    stack: [
+      "Nest.js",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+      "Firebase",
+      "Docker",
+      "Socket.io",
+      "CI/CD",
+      "SaaS Development",
+      "Realtime Programming",
+      "Virtual Private Server (VPS)",
     ],
   },
   {
@@ -128,29 +169,26 @@ export const experiencesData = [
     ],
   },
   {
-    title: "Full-time Backend Developer (Remote)",
-    location: "DYNO Tech, Egypt",
-    description: `• Developed a real-time location tracking and live status detection server using Nest.js, Socket.IO, MongoDB, and Firebase Cloud Messaging for mobile notifications.
-        • Managed the VPS infrastructure and CI/CD pipelines for the applications, ensuring seamless deployment and continuous integration.
-        • Leveraged PM2 to optimize CPU core utilization and monitor server performance.
-        • Collaborated closely with the mobile (Flutter), frontend (React.js), and testing teams to troubleshoot and resolve complex issues.
-        • Designed and implemented a comprehensive dashboard for multiple administrative roles.`,
-    // icon: React.createElement(SiNestjs),
-    icon: dynoCompanyImg,
-    url: "https://www.linkedin.com/company/dynootech/posts/?feedView=all",
-    date: "Jul 2024 - present",
+    title: "Full-Stack (MERN) Internship",
+    location: "Route, Egypt",
+    description: `At Route, I contributed to developing responsive interfaces using HTML, CSS, and JavaScript
+        while optimizing APIs with Node.js and MongoDB for seamless data flow. I collaborated with the team to debug,
+        enhance features, and ensure scalability, improving user experience and system performance.`,
+    // icon: React.createElement(CgWorkAlt),
+    icon: routeCompanyImg,
+    url: "https://www.linkedin.com/company/routeacademy/",
+    date: "Dec 2022 - Sep 2023",
     stack: [
-      "Nest.js",
-      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
       "MongoDB",
-      "Mongoose",
-      "Firebase",
-      "Docker",
-      "Socket.io",
-      "CI/CD",
-      "SaaS Development",
-      "Realtime Programming",
-      "Virtual Private Server (VPS)",
+      "TypeScript",
+      "Tailwind",
     ],
   },
 ] as const;
