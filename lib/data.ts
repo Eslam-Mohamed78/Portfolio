@@ -245,16 +245,16 @@ export const projectsData = [
     liveDemo: "https://eslam-mohamed78.github.io/Game-Over/",
     repo: "https://github.com/Eslam-Mohamed78/Game-Over",
   },
-  {
-    title: "Noxe-Movies Platform",
-    description: `Main Features: TrendingMovies, TVSeries, Actors, TrendingSlider, TVshow, Authentication, Validation.`,
-    stackIcons: [reactIcon, bootstrapIcon, rapidapiIcon],
-    imageUrl: moviesPlatformProjectImg,
-    videoUrl:
-      "https://res.cloudinary.com/dayeympjm/video/upload/v1696970706/portfolio/Noxe-Movies-Platform_o67aal.mp4",
-    liveDemo: "https://eslam-mohamed78.github.io/Noxe-Movies-Platform/",
-    repo: "https://github.com/Eslam-Mohamed78/Noxe-Movies-Platform",
-  },
+  // {
+  //   title: "Noxe-Movies Platform",
+  //   description: `Main Features: TrendingMovies, TVSeries, Actors, TrendingSlider, TVshow, Authentication, Validation.`,
+  //   stackIcons: [reactIcon, bootstrapIcon, rapidapiIcon],
+  //   imageUrl: moviesPlatformProjectImg,
+  //   videoUrl:
+  //     "https://res.cloudinary.com/dayeympjm/video/upload/v1696970706/portfolio/Noxe-Movies-Platform_o67aal.mp4",
+  //   liveDemo: "https://eslam-mohamed78.github.io/Noxe-Movies-Platform/",
+  //   repo: "https://github.com/Eslam-Mohamed78/Noxe-Movies-Platform",
+  // },
   {
     title: "Ideanest_Backend",
     description: `Main Features: RefreshToken, Localization, Redis-Caching`,
