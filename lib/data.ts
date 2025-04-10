@@ -85,6 +85,26 @@ export const educationData = [
 
 export const experiencesData = [
   {
+    title: "Full-time Backend Developer (Remote)",
+    location: "HectarApp, Saudi-Riyadh",
+    description: `• Developed a new accounting microservice using NestJS and TypeScript.
+        • Worked on a real estate management platform with six microservices.
+        • Ensured seamless data flow, scalability, and performance optimization.
+        • Implemented best practices for secure and efficient financial transactions.`,
+    icon: hectarCompanyImg,
+    url: "https://www.linkedin.com/company/hectarapp/about/",
+    date: "Dec 2024 - present",
+    stack: [
+      "Microservices",
+      "Redis",
+      "AWS",
+      "Nest.js",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+    ],
+  },
+  {
     title: "Part-time Backend Developer (Remote)",
     location: "Pharaoh Soft, Egypt",
     description: `• Developed and maintained a real-time Events Management System using Nest.js,
@@ -96,7 +116,7 @@ workflow.
         • Collaborated with cross-functional teams to build business-driven backend solutions.`,
     icon: pharaohCompanyImg,
     url: "https://www.linkedin.com/company/pharaoh-soft-ltd/posts/?feedView=all",
-    date: "Jan 2025 - present",
+    date: "Dec 2025 - Feb 2025",
     stack: [
       "AWS",
       "Nest.js",
@@ -106,18 +126,6 @@ workflow.
       "Firebase",
       "Docker",
     ],
-  },
-  {
-    title: "Full-time Backend Developer (Remote)",
-    location: "HectarApp, Saudi-Riyadh",
-    description: `• Developed a new accounting microservice using NestJS and TypeScript.
-        • Worked on a real estate management platform with six microservices.
-        • Ensured seamless data flow, scalability, and performance optimization.
-        • Implemented best practices for secure and efficient financial transactions.`,
-    icon: hectarCompanyImg,
-    url: "https://www.linkedin.com/company/hectarapp/about/",
-    date: "Dec 2024 - present",
-    stack: ["Microservices", "Nest.js", "TypeScript", "MongoDB", "Mongoose"],
   },
 
   {
@@ -131,7 +139,7 @@ workflow.
     // icon: React.createElement(SiNestjs),
     icon: dynoCompanyImg,
     url: "https://www.linkedin.com/company/dynootech/posts/?feedView=all",
-    date: "Jul 2024 - present",
+    date: "Jul 2024 - Dec 2024",
     stack: [
       "Nest.js",
       "TypeScript",
