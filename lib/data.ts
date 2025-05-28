@@ -116,7 +116,7 @@ workflow.
         • Collaborated with cross-functional teams to build business-driven backend solutions.`,
     icon: pharaohCompanyImg,
     url: "https://www.linkedin.com/company/pharaoh-soft-ltd/posts/?feedView=all",
-    date: "Dec 2025 - Feb 2025",
+    date: "Dec 2024 - Feb 2025",
     stack: [
       "AWS",
       "Nest.js",
